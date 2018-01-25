@@ -20,6 +20,11 @@ li{
 }
 
 #Header{
+	text-decoration: line-through;
+	text-transform: uppercase;
+	word-spacing: 50px;
+	text-shadow: 3px 2px red;
+	text-indent: 80px;
 	text-align: center;
 	width: 500px;
 	margin-left: auto;
