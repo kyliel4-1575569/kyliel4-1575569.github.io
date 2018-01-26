@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Job Application For Math Tutor</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+<fieldset>
+		<legend>General Info</legend>
+		<div class="field">
+			<label>Email:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>First Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Last Name</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="Phone Number">
+			<label>Phone Number:</label> 
+			<input type="text" name="number">
+		</div>
+		<div class="Gender">
+			<label>Gender:</label> 
+			<input type="radio" name="legal" value="male">Male
+			<input type="radio" name="legal" value="female">Female
+		</div>
+		<div class="Birthday">
+			<label>Birthday:</label> 
+			<input type="date" name="bday">
+		</div>
+		<div class="field">
+		<label>Where did you hear about this job?:</label> 
+		<select name="where"> <option value="choose">Choose an Option</option> <option value="Friend">Friend</option> <option value="tv ad">TV Ad</option> <option value="Internet Ad">Internet Ad</option> <option value="other">Other</option> </select>
+		</div>
+	</fieldset>
+	
+<fieldset>
+		<legend>Online Account</legend>
+		<div class="field">
+			<label>Username:</label> 
+			<input type="text" name="username">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+	
+<fieldset>
+		<legend>Experience</legend>
+		<div class="field">
+			<label>Have You Been a Math Tutor Previously?:</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>If yes where?</label><br>
+			<textarea name="where" rows="4" cols="40">
+			</textarea>
+		</div>
+	</fieldset>
+<fieldset>
+<legend>Knowledge</legend>
+	<div class="field">
+		
+			<label>What previous math classes have you taken? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="algebra">Algebra</li>
+				<li><input type="checkbox" name="position_ft" value="geometry">Geometry</li>
+				<li><input type="checkbox" name="position_sl" value="Calculus">Calculus</li>
+				<li><input type="checkbox" name="position_tp" value="Statistics">Statistics</li>
+			</ul>
+		</div>
+		</fieldset>
+<fieldset>
+<legend>General Questions</legend>
+		<div class="field">
+			<label>What motivates you to be a math tutor?</label><br>
+			<textarea name="where" rows="4" cols="40">
+			</textarea>
+		</div>
+		<div class="field">
+			<label>What do you hope to gain out if this job?</label><br>
+			<textarea name="where" rows="4" cols="40">
+			</textarea>
+		</div>
+	</fieldset>
+	<input type="submit" value="Submit form">
+</form>
+</body>
+</html>
